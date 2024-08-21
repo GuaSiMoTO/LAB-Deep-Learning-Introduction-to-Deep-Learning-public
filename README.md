@@ -140,6 +140,32 @@ After completing the above steps, reflect on the results and write down your obs
 - How would you modify the model for better performance?
 
 ---
+## Bonus Section
+
+Before moving on to a new dataset, we’ll explore how different activation functions impact the performance of the perceptron model. After that, you'll apply what you've learned to classify wine quality using the **Wine Quality Dataset**.
+
+### Activation Function Experimentation
+
+In this part of the bonus exercise, you will revisit the previous exercise (Breast Cancer Wisconsin Dataset) and try out different activation functions in the output layer to observe how they affect the model's performance.
+
+- Experiment with different activation functions, such as:
+  - **Tanh** (`activation='tanh'`)
+  - **ReLU** (`activation='relu'`)
+  - **Softmax** (`activation='softmax'`)
+  
+For each activation function:
+  - Retrain the model.
+  - Record the model's training and validation accuracy.
+  - Plot the loss and accuracy curves to compare the performance.
+
+### New Dataset Challenge - Wine Quality Classification
+
+After exploring the impact of different activation functions, you will now apply the same process to classify wines using the **Wine Quality Dataset**.
+
+- **Task**: Classify wines into two categories: "good" or "bad" based on their chemical properties.
+  
+- **Reminder**: Follow the same steps you used earlier for loading, preprocessing, training, and evaluating the model. Experiment with different activation functions here as well to see how they impact the model's performance on this new dataset.
+
 
 ## Submission
 Once you have completed your analysis and visualizations, push your Jupyter notebook to your forked GitHub repository. Ensure that your final submission includes narratives explaining your visualizations and insights.
