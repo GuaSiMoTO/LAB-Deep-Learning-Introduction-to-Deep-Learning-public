@@ -66,6 +66,7 @@ Understand how a simple perceptron can solve classification problems and how to 
 
 ### Classification with the Circles Dataset
 - Select the circles dataset.
+
   ![image](https://github.com/user-attachments/assets/8ed8fb3a-5056-4b73-8480-8fbdacbb737d)
 
 - Adjust the input features and observe how the decision boundary is formed to separate the classes.
@@ -74,6 +75,7 @@ Understand how a simple perceptron can solve classification problems and how to 
 
 ### Classification with the XOR Dataset
 - Select the XOR dataset.
+
   ![image](https://github.com/user-attachments/assets/27124e13-2864-4b27-9cfd-c0c62303d6f3)
 
 - Adjust the input features and observe how the decision boundary is formed to separate the classes.
