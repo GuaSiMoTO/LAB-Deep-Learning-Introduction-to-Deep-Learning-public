@@ -59,6 +59,66 @@ For the first iteration, load a simple dataset that includes features and a bina
 
 To understand the dataset better, visualize the relationships between the features and the target.
 
+# Iteration 0: Exploring a Simple Perceptron
+
+In this iteration, you will explore how a simple perceptron operates for classifying linearly separable data. You will use TensorFlow Playground to configure and observe the behavior of a basic perceptron model.
+
+1. **Access TensorFlow Playground:**
+   - Go to [TensorFlow Playground](https://playground.tensorflow.org/).
+
+2. **Configure the Model:**
+   - **Number of Layers:**
+     - **Input Layer**: 3 neurons (representing the three input features).
+     - **Hidden Layer**: **None** (this ensures the model is a simple perceptron).
+     - **Output Layer**: 1 neuron.
+   - **Activation Functions:**
+     - **Output Layer**: Set to Sigmoid (feel free to experiment with other activations like 'ReLU').
+   - **Dataset:**
+     - **Dataset**: Use the 'Linearly Separable' dataset.
+   - **Training Configuration:**
+     - **Learning Rate**: Set to 0.01.
+     - **Epochs**: Set to 50.
+
+## Tasks
+
+### Initial Observation
+
+1. **Verify Initial Configuration:**
+   - Ensure the network is configured with no hidden layers and one neuron in the output layer.
+   - Check that the activation function for the output layer is ReLU.
+
+2. **Predict Initial Output:**
+   - Look at the dataset in the feature space. What kind of decision boundary do you expect the perceptron to create?
+   - Click the **▶️** button to train the model.
+   - Observe the decision boundary and compare it with your expectations.
+
+###  Adjusting Learning Rate
+
+1. **Modify the Learning Rate:**
+   - Change the learning rate to a different value (e.g., 0.1 or 0.001).
+   - Observe how the learning rate affects the training and the decision boundary.
+
+2. **Reflect on Learning Rate Effects:**
+   - How does changing the learning rate influence the convergence of the perceptron? Does the decision boundary change significantly?
+
+### Comparing Activation Functions
+
+1. **Change Activation Function:**
+   - Change the activation function of the output layer to 'Sigmoid' or 'Tanh'.
+   - Observe how the decision boundary is affected by this change.
+
+2. **Discuss Activation Effects:**
+   - How does the choice of activation function affect the perceptron’s performance in classifying the data?
+
+## Discussion Questions
+
+1. **Understanding the Perceptron:**
+   - What did you learn about the behavior of the simple perceptron with different settings?
+   - What limitations did you notice when using a simple perceptron?
+
+2. **Application of Perceptrons:**
+   - What types of classification problems can a simple perceptron solve effectively?
+   - When might it be necessary to use a more complex neural network?
 - **Step 1**: Import the necessary libraries for visualization.
 - **Step 2**: Visualize the distribution of the target variable using a histogram.
 - **Step 3**: Generate a pairplot to visualize some of the features against the target.
