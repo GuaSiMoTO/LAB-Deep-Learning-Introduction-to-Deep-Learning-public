@@ -42,13 +42,9 @@ To test that everything is set up correctly, run the first cell in the notebook.
 
 You can write and execute your code in the provided cells within the notebook. Any outputs, including print statements and visualizations, will be displayed directly in the notebook, making it easy to debug and verify your solutions.
 
-## Iteration 0: Exploring a Simple Perceptron
+## Iteration 0: TensorFlow Playground
 
-Understand how a simple perceptron can solve classification problems and how to adjust the input layers to improve accuracy.
-
-## Steps
-
-### Initial Setup in TensorFlow Playground
+### Initial Setup 
 - Open [TensorFlow Playground](https://playground.tensorflow.org/#activation=sigmoid&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=&seed=0.20988&showTestData=false&discretize=false&percTrainData=20&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 - Select one of the four available datasets (circles, XOR, etc.).
 - Ensure that no hidden layers are selected (0 HIDDEN LAYERS).
