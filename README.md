@@ -12,14 +12,36 @@ Students will use the fundamental building blocks of machine learning, including
 
 You will build simple perceptron models to classify data from simple datasets. In this lab, you'll work through iterations of data preprocessing, model building, training, and evaluation. The aim is to reinforce key concepts learned from the lessons on Perceptrons, TensorFlow, and basic neural networks.
 
-## **Requirements**
+## Initial Setup
 
-To complete this lab, ensure you have the following setup:
-1. Install Python and the necessary libraries.
-2. Open your preferred IDE (VS Code, Jupyter Notebook, PyCharm) to work through the exercises.
-3. Fork the provided repository (if applicable) and clone it locally to begin working on the lab.
+### Requirements
+Start by forking the provided GitHub repository to your account and then clone it locally. This will be your workspace for completing the lab exercises.
+- [Learn how to fork this repo](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
+- Clone this repo into your code/labs folder.
 
----
+### Setup Instructions
+To run the notebook and reproduce the results, follow these steps:
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/codeskills-ai/LAB-Deep-Learning-Introduction-to-Deep-Learning.git
+    cd LAB-Deep-Learning-Introduction-to-Deep-Learning
+    ```
+
+2. Create a virtual environment and install the required packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ``` 
+
+To test that everything is set up correctly, run the first cell in the notebook. This cell usually contains import statements and initial setup code. If it runs without errors, you are ready to start solving the exercises.
+
+You can write and execute your code in the provided cells within the notebook. Any outputs, including print statements and visualizations, will be displayed directly in the notebook, making it easy to debug and verify your solutions.
+
 
 ## **Workflow**
 
