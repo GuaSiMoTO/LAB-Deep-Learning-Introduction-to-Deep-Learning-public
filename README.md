@@ -44,46 +44,37 @@ You can write and execute your code in the provided cells within the notebook. A
 
 ## Iteration 0: Exploring a Simple Perceptron
 
-In this iteration, you will explore how a simple perceptron operates for classifying linearly separable data. You will use TensorFlow Playground to configure and observe the behavior of a basic perceptron model.
+Understand how a simple perceptron can solve classification problems and how to adjust the input layers to improve accuracy.
 
-1. **Access TensorFlow Playground:**
-   - Go to [TensorFlow Playground](https://playground.tensorflow.org/#activation=sigmoid&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=&seed=0.58772&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false).
+## Steps
 
-2. **Configure the Model:**
-   - **Number of Layers:**
-     - **Input Layer**: 3 neurons (representing the three input features).
-     - **Hidden Layer**: **None** (this ensures the model is a simple perceptron).
-     - **Output Layer**: 1 neuron.
-   - **Activation Functions:**
-     - **Output Layer**: Set to Sigmoid (feel free to experiment with other activations like 'ReLU').
-   - **Dataset:**
-     - **Dataset**: Use the 'Linearly Separable' dataset.
-   - **Training Configuration:**
-     - **Learning Rate**: Set to 0.01.
-     - **Epochs**: Set to 50.
+### Initial Setup in TensorFlow Playground
+- Open [TensorFlow Playground](https://playground.tensorflow.org/#activation=sigmoid&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=&seed=0.20988&showTestData=false&discretize=false&percTrainData=20&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
+- Select one of the four available datasets (circles, XOR, etc.).
+- Ensure that no hidden layers are selected (0 HIDDEN LAYERS).
+- In the **FEATURES** section, select the input features `x_1` and `x_2`.
+- In the **OUTPUT** section, select the Sigmoid activation function.
+- Ensure regularization is turned off (None).
 
-## Tasks
+### Classification with the Exclusion Dataset
+- Select the exclusion dataset.
+- Adjust the input features and observe how the decision boundary is formed to separate the classes.
+- Train the model and observe the results.
+- Discuss the limitations of the simple perceptron with this dataset and the need for more complex networks.
 
-### Initial Observation
+![tensorflow-playground](https://github.com/user-attachments/assets/d9a81ee4-39ba-461f-9184-110a65551988)
 
-1. **Verify Initial Configuration:**
-   - Ensure the network is configured with no hidden layers and one neuron in the output layer.
-   - Check that the activation function for the output layer is ReLU.
+### Classification with the Circles Dataset
+- Select the circles dataset.
+- Adjust the input features and observe how the decision boundary is formed to separate the classes.
+- Train the model and observe the results.
+- Discuss how the simple perceptron has managed (or failed) to separate the classes.
 
-2. **Predict Initial Output:**
-   - Look at the dataset in the feature space. What kind of decision boundary do you expect the perceptron to create?
-   - Click the **▶️** button to train the model.
-   - Observe the decision boundary and compare it with your expectations.
-
-###  Adjusting Learning Rate
-
-1. **Modify the Learning Rate:**
-   - Change the learning rate to a different value (e.g., 0.1 or 0.001).
-   - Observe how the learning rate affects the training and the decision boundary.
-
-2. **Reflect on Learning Rate Effects:**
-   - How does changing the learning rate influence the convergence of the perceptron? Does the decision boundary change significantly?
-
+### Classification with the XOR Dataset
+- Select the XOR dataset.
+- Adjust the input features and observe how the decision boundary is formed to separate the classes.
+- Train the model and observe the results.
+- Discuss the limitations of the simple perceptron with this dataset and the need for more complex networks.
 
 ## **Workflow**
 
