@@ -1,6 +1,6 @@
 # LAB-Deep-Learning-Introduction-to-Deep-Learning
 
----
+![Image](https://user-images.githubusercontent.com/970858/63474771-d6734700-c469-11e9-83bb-9429da563909.png)
 
 ## **Introduction**
 
@@ -112,16 +112,26 @@ After completing the above steps, reflect on the results and write down your obs
 
 ---
 
-## **Submission**
+## Submission
+Once you have completed your analysis and visualizations, push your Jupyter notebook to your forked GitHub repository. Ensure that your final submission includes narratives explaining your visualizations and insights.
 
-After completing all iterations, ensure your code is clean and well-commented. Push your final Jupyter notebook or Python script to the GitHub repository and submit the link for evaluation.
 
----
+```bash
+$ git add .
+$ git commit -m "done"
+$ git push origin main
+```
 
-## **Conclusion**
+Then create a Pull Request!!
 
-This lab provides a hands-on experience with perceptrons, helping you solidify the basic concepts of neural networks and binary classification. By practicing this lab, you will strengthen your understanding of how simple neural networks like perceptrons can be used in practical machine learning tasks.
+## Additional Resources
 
----
+- [ ]()
+- [ ](/)
+- [ ]()
+- [ ]().
+- [ ]().
+
+![happy_coding](https://user-images.githubusercontent.com/970858/63899010-c23fc480-c9ea-11e9-84a2-542907e42362.png)
 
 Happy coding! 🎉
