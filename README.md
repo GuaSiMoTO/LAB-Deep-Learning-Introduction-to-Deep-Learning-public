@@ -8,8 +8,6 @@ In this lab, students will practice what they have learned about perceptrons, st
 
 Students will use the fundamental building blocks of machine learning, including TensorFlow/Keras, to create perceptron models, while applying the basic ideas of data preprocessing, feature selection, and model evaluation.
 
-## **Task Objective**
-
 You will build simple perceptron models to classify data from simple datasets. In this lab, you'll work through iterations of data preprocessing, model building, training, and evaluation. The aim is to reinforce key concepts learned from the lessons on Perceptrons, TensorFlow, and basic neural networks.
 
 ## Initial Setup
