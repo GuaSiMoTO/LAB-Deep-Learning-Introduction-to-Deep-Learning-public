@@ -84,28 +84,6 @@ In this iteration, you will explore how a simple perceptron operates for classif
 2. **Reflect on Learning Rate Effects:**
    - How does changing the learning rate influence the convergence of the perceptron? Does the decision boundary change significantly?
 
-### Comparing Activation Functions
-
-1. **Change Activation Function:**
-   - Change the activation function of the output layer to 'Sigmoid' or 'Tanh'.
-   - Observe how the decision boundary is affected by this change.
-
-2. **Discuss Activation Effects:**
-   - How does the choice of activation function affect the perceptron’s performance in classifying the data?
-
-## Discussion Questions
-
-1. **Understanding the Perceptron:**
-   - What did you learn about the behavior of the simple perceptron with different settings?
-   - What limitations did you notice when using a simple perceptron?
-
-2. **Application of Perceptrons:**
-   - What types of classification problems can a simple perceptron solve effectively?
-   - When might it be necessary to use a more complex neural network?
-- **Step 1**: Import the necessary libraries for visualization.
-- **Step 2**: Visualize the distribution of the target variable using a histogram.
-- **Step 3**: Generate a pairplot to visualize some of the features against the target.
-
 
 ## **Workflow**
 
