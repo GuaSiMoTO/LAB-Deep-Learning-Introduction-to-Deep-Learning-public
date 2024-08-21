@@ -42,23 +42,6 @@ To test that everything is set up correctly, run the first cell in the notebook.
 
 You can write and execute your code in the provided cells within the notebook. Any outputs, including print statements and visualizations, will be displayed directly in the notebook, making it easy to debug and verify your solutions.
 
-
-## **Workflow**
-
-### **Iteration 1: Data Loading**
-
-For the first iteration, load a simple dataset that includes features and a binary target variable. For this lab, you'll use the **Breast Cancer Wisconsin Dataset** from scikit-learn.
-
-- **Step 1**: Import the necessary Python libraries.
-- **Step 2**: Load the dataset.
-- **Step 3**: Inspect the data by displaying the first few rows of the dataset.
-
----
-
-### **Iteration 2: Data Exploration**
-
-To understand the dataset better, visualize the relationships between the features and the target.
-
 # Iteration 0: Exploring a Simple Perceptron
 
 In this iteration, you will explore how a simple perceptron operates for classifying linearly separable data. You will use TensorFlow Playground to configure and observe the behavior of a basic perceptron model.
@@ -122,6 +105,23 @@ In this iteration, you will explore how a simple perceptron operates for classif
 - **Step 1**: Import the necessary libraries for visualization.
 - **Step 2**: Visualize the distribution of the target variable using a histogram.
 - **Step 3**: Generate a pairplot to visualize some of the features against the target.
+
+
+## **Workflow**
+
+### **Iteration 1: Data Loading**
+
+For the first iteration, load a simple dataset that includes features and a binary target variable. For this lab, you'll use the **Breast Cancer Wisconsin Dataset** from scikit-learn.
+
+- **Step 1**: Import the necessary Python libraries.
+- **Step 2**: Load the dataset.
+- **Step 3**: Inspect the data by displaying the first few rows of the dataset.
+
+---
+
+### **Iteration 2: Data Exploration**
+
+To understand the dataset better, visualize the relationships between the features and the target.
 
 ---
 
