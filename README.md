@@ -47,7 +47,7 @@ You can write and execute your code in the provided cells within the notebook. A
 In this iteration, you will explore how a simple perceptron operates for classifying linearly separable data. You will use TensorFlow Playground to configure and observe the behavior of a basic perceptron model.
 
 1. **Access TensorFlow Playground:**
-   - Go to [TensorFlow Playground]([https://playground.tensorflow.org/](https://playground.tensorflow.org/#activation=sigmoid&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=&seed=0.58772&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)).
+   - Go to [TensorFlow Playground](https://playground.tensorflow.org/#activation=sigmoid&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=&seed=0.58772&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false).
 
 2. **Configure the Model:**
    - **Number of Layers:**
