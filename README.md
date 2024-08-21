@@ -42,7 +42,7 @@ To test that everything is set up correctly, run the first cell in the notebook.
 
 You can write and execute your code in the provided cells within the notebook. Any outputs, including print statements and visualizations, will be displayed directly in the notebook, making it easy to debug and verify your solutions.
 
-# Iteration 0: Exploring a Simple Perceptron
+## Iteration 0: Exploring a Simple Perceptron
 
 In this iteration, you will explore how a simple perceptron operates for classifying linearly separable data. You will use TensorFlow Playground to configure and observe the behavior of a basic perceptron model.
 
