@@ -54,7 +54,6 @@ You can write and execute your code in the provided cells within the notebook. A
 - Select the exclusion dataset.
 - Adjust the input features and observe how the decision boundary is formed to separate the classes.
 - Train the model and observe the results.
-- Discuss the limitations of the simple perceptron with this dataset and the need for more complex networks.
 
 ![tensorflow-playground](https://github.com/user-attachments/assets/d9a81ee4-39ba-461f-9184-110a65551988)
 
@@ -65,7 +64,6 @@ You can write and execute your code in the provided cells within the notebook. A
 
 - Adjust the input features and observe how the decision boundary is formed to separate the classes.
 - Train the model and observe the results.
-- Discuss how the simple perceptron has managed (or failed) to separate the classes.
 
 ### Classification with the XOR Dataset
 - Select the XOR dataset.
@@ -74,7 +72,6 @@ You can write and execute your code in the provided cells within the notebook. A
 
 - Adjust the input features and observe how the decision boundary is formed to separate the classes.
 - Train the model and observe the results.
-- Discuss the limitations of the simple perceptron with this dataset and the need for more complex networks.
 
 ## **Workflow**
 
