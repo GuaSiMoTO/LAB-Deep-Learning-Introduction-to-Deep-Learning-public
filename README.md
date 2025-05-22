@@ -65,6 +65,8 @@ You can write and execute your code in the provided cells within the notebook. A
 - Adjust the input features and observe how the decision boundary is formed to separate the classes.
 - Train the model and observe the results.
 
+![alt text](<Screenshot from 2025-05-22 14-19-57.png>)
+
 ### Classification with the XOR Dataset
 - Select the XOR dataset.
 
@@ -72,6 +74,8 @@ You can write and execute your code in the provided cells within the notebook. A
 
 - Adjust the input features and observe how the decision boundary is formed to separate the classes.
 - Train the model and observe the results.
+
+![alt text](<Screenshot from 2025-05-22 14-44-53.png>)
 
 ## **Workflow**
 
